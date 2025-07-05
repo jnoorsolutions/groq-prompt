@@ -96,6 +96,11 @@ Ensure the summary is clear, accurate, and aligned with the provided style and l
 ```
 
 ---
+## 📘 Create Prompt Template as a json file
+
+prompt_temp.json
+
+---
 
 ## 📘 Sample Output
 
