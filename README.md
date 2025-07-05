@@ -1,5 +1,5 @@
 
-# 🧠 Research Paper Summarizer using LangChain, Streamlit, and Groq API
+## 🧠 Research Paper Summarizer using LangChain, Streamlit, and Groq API
 
 This project is a simple interactive tool built with **Streamlit** and **LangChain** that uses **Groq API** to generate structured summaries of popular AI research papers. The user can choose the paper title, explanation style, and summary length — the LLM will then generate a customized explanation.
 
