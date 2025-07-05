@@ -64,7 +64,7 @@ You can get your API key from: https://console.groq.com/
 Run the Streamlit app using:
 
 ```bash
-streamlit run your_app_file.py
+streamlit run groq_prompt_ui.py
 ```
 
 Then interact with the UI to:
