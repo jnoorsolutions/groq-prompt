@@ -16,7 +16,7 @@ This project is a simple interactive tool built with **Streamlit** and **LangCha
 ---
 **🧪 Application Url**
 
-https://groq-chatbot-cn9jmzqmzejups6awfhuvn.streamlit.app/
+https://groq-prompt-3diva8vbz7negxwaiwsrwg.streamlit.app/
 
 ---
 
