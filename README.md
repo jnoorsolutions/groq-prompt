@@ -14,6 +14,11 @@ This project is a simple interactive tool built with **Streamlit** and **LangCha
 - 🧪 Clean Streamlit UI for interaction
 
 ---
+**🧪 Application Url**
+
+https://groq-chatbot-cn9jmzqmzejups6awfhuvn.streamlit.app/
+
+---
 
 ## 🛠️ Tech Stack
 
