@@ -35,15 +35,33 @@ length_input = st.selectbox(
 
 prompt_template = load_prompt('prompt_temp.json')
 
+
 # --- Summary Button ---
+# new code
 if st.button("Summarize"):
-    filled_prompt = prompt_template.format(
+    chain = prompt_template|model
+    
+    response = chain.invoke(
+        prompt_template.format(
         paper_input=paper_input,
         style_input=style_input,
         length_input=length_input
+        )
     )
 
     with st.spinner("Generating summary..."):
-        response = model.invoke(filled_prompt)
         st.subheader("📋 Summary")
         st.write(response.content)
+
+# Old Code
+#if st.button("Summarize"):
+#    filled_prompt = prompt_template.format(
+#        paper_input=paper_input,
+#        style_input=style_input,
+#        length_input=length_input
+#    )
+
+#    with st.spinner("Generating summary..."):
+#        response = model.invoke(filled_prompt)
+#        st.subheader("📋 Summary")
+#        st.write(response.content)
