@@ -127,6 +127,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## ✨ Author
-
-Built with ❤️ by [JnoorSolutions](https://github.com/junaidnoor)
+## 👨‍💻 Author  
+Developed by **Junaid Noor Siddiqui** ✨
